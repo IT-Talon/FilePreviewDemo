@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
 //        mWebView.loadUrl("http://docs.google.com/gview?embedded=true&url=" + fileUrl); //google官方预览，需要翻墙
         mWebView.loadUrl("http://ow365.cn/?i=12428&furl=" + fileUrl); //officeweb365形式预览，付费后可以去掉广告
+ //       微软：https://view.officeapps.live.com/op/view.aspx?src= (输入你的文档在服务器中的地址)； 对文档格式有要求
     }
 
 }
